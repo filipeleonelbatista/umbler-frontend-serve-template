@@ -1,0 +1,16 @@
+{
+  "name": "app-clikcar-com-br",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://geonosis.deploy.umbler.com/jv0xq8ve/app-clikcar-com-br.git",
+  "author": "Filipe Batista <filipe.x@live.com>",
+  "license": "MIT",
+  "scripts":{
+    "start": "node server",
+    "postinstall": "node ./scripts/skip.js || npm run build"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
